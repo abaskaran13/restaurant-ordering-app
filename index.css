@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Smythe", system-ui;
+    width: 600px;
+    margin: auto;
+} 
+
+header{
+    padding: 0px 46px;
+    height: 167px;
+    background: url('burger.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    border: 1px solid transparent;
+}
+
+header h1{
+    margin: 0;
+    margin-top: 56px;
+    margin-bottom: 10px;
+}
+
+header p{
+    margin: 0;
+}
+
+.menu{
+    padding: 20px 46px;
+}
+
+.flex-item {
+    display: flex;
+    align-items: start;
+    border-bottom: 1px solid #D2D2D2;
+    gap: 35px;
+    width: 508px;
+    height: 140px;
+    padding-top: 40px;
+}
+
+.item-img{
+    width: 70px;
+    height: 89px;
+    display: inline-block;
+    margin: 0;
+    font-size: 78px;
+
+}
+
+.item-details{
+    display: inline-block;
+    margin-right: auto;
+}
+
+.item-name{
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.item-ingredients{
+    margin: 0px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.price{
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+.add-item-btn{
+    margin-top: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    width: 50px;
+    height: 50px;
+    line-height: 100%;
+    color: #3C3C3C;
+    padding: 0px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.add-item-btn:hover{
+    background-color: #DEDEDE;
+}
+
+.checkout{
+    padding: 20px 46px;
+    text-align: center;
+}
+
+.user-cart{
+    padding-bottom: 12px;
+    border-bottom: 2px solid #393333;
+}
+
+.checkout-title{
+    font-size: 28px;
+    margin: 0px;
+}
+
+.cart-item{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-size: 28px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.remove-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    background: transparent;
+    width: 77px;
+    height: 22px;
+    border: none;
+    margin-right: auto;
+    margin-top: -6px;
+    cursor: button;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.total-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-price .name {
+    margin-top: 8px;
+}
+
+.complete-order-btn{
+    width: 100%;
+    margin: 0px;
+    height: 60px;
+    background-color: #16DB99;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 45px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.no-display {
+    display: none;
+}
+
+.form-container{
+    background-color: white;
+    width: 524px;
+    height: 542px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 5.19px 5.19px 255.44px #757575;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.input-field{
+    box-sizing: border-box;
+    display: block;
+    width: 475.91px;
+    height: 71.3px;
+    border: 1.3px solid #757575;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 25px;
+    color: #757575;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+form button{
+    width: 475px;
+    height: 71px;
+    background-color: #16DB99;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.confirmation-screen{
+    width: 504px;
+    height: 120px;
+    margin: auto;
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-family: "Smythe", system-ui;;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
